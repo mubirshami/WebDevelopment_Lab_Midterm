@@ -1,0 +1,43 @@
+$(document).ready(function(){
+   $(".i1").mouseover(function(){
+      $(this).animate({opacity:1});
+      "fast"
+});
+
+$(".i1").mouseout(function(){
+   $(this).animate({opacity:0.5});
+   "fast"
+});
+$(".i2").mouseover(function(){
+   $(this).animate({zoom:"100%"});
+   "fast"
+});
+$(".i2").mouseout(function(){
+   $(this).animate({zoom:"50%"});
+   "fast"
+});
+$(".i3").mouseover(function(){
+   $(this).animate({width:"100%"});
+   "fast"
+});
+$(".i3").mouseout(function(){
+   $(this).animate({width:"50%"});
+   "fast"
+});
+$(".i4").mouseover(function(){
+   $(this).animate({zoom:"100%"});
+   "fast"
+});
+$(".i4").mouseout(function(){
+   $(this).animate({zoom:"50%"});
+   "fast"
+});
+$(".i5").mouseover(function(){
+   $(this).animate({width:"100%"});
+   "fast"
+});
+$(".i5").mouseout(function(){
+   $(this).animate({width:"50%"});
+   "fast"
+});
+});

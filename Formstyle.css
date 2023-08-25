@@ -1,0 +1,86 @@
+body{
+	background-color: silver;
+}
+
+form{
+	margin-top: 1.66%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 36%;
+	border: 2px solid black;
+	background-color: lightgreen;
+}
+
+h3{
+	text-align: center;
+	background-color: skyblue;
+	padding: 1%;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+td{
+	padding-right: 2.5%;
+}
+
+#submit{
+	height: 70%;
+	width: 30%;
+	padding: 1%;
+	margin-left: 35%;
+	margin-right: 50%;
+	margin-bottom: 2%;
+}
+
+.display{
+	padding-top: 2%;
+	text-align: center;
+	width: 36%;
+	margin: auto;
+}
+.PName{
+	color: darkblue;
+	font-weight: bolder;
+}
+.PAge{
+	color: darkblue;
+	font-weight: bolder;
+}
+.PGender{
+	color: darkblue;
+	font-weight: bolder;
+}
+.DOB{
+	color: darkblue;
+	font-weight: bolder;
+}
+.POB{
+	color: darkblue;
+	font-weight: bolder;
+}
+.M_Marks{
+	color: darkblue;
+	font-weight: bolder;
+}
+.M_Result{
+	color: darkblue;
+	font-weight: bolder;
+}
+.I_Marks{
+	color: darkblue;
+	font-weight: bolder;
+}
+.I_Result{
+	color: darkblue;
+	font-weight: bolder;
+}
+.in {
+	color: darkblue;
+	font-weight: bolder;
+}
+h1{
+	text-align: center;
+}

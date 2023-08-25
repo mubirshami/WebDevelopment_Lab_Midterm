@@ -1,0 +1,38 @@
+body{
+	background-color: silver;
+}
+#sweek{
+    color: blue;
+    font-weight: bolder;
+}
+#overall{
+    color: darkgreen;
+    font-weight: bold;
+}
+#overview{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding-left: 2.5in;
+    padding-right: 2.5in;
+}
+#positive{
+    color: darkgreen;
+    font-weight: bold;
+}
+#pos_list{
+    font-style: italic;
+    font-weight: bold;
+}
+#neg_list{
+    font-style: italic;
+    font-weight: bold;
+}
+#negative{
+    color: darkgreen;
+    font-weight: bold;
+}
+#memories{
+    color: darkgreen;
+    font-weight: bold;
+}

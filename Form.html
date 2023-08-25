@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Lab Mid</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="Formstyle.css">
+	<script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+<a href="StudentsWeek.html">
+	<input type="submit" value="Student's Week">
+</a>
+	<form>
+		<h3>Input Data</h3>
+		<table>
+			<tr>
+				<td>Name:</td>
+				<td><input id="name" type="text" name="text" placeholder="Mubir"></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Age:</td>
+				<td><input id="age" type="number" name="Age" placeholder="21" max="150"></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td><select name="Gender" id="gender">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option></td>
+			</tr>
+      		<tr>
+        		<td><br></td>
+      		</tr>
+			<tr>
+				<td>Picture:</td>
+        		<td><input type="file" id="pic" name="yourpic" accept=".png, .jpg, .jpeg"></td>
+			</tr>
+     		<tr>
+        		<td><br></td>
+      		</tr>
+			<tr>
+				<td>Date of Birth:</td>
+				<td><input id="dob"  type="date" name="dob" ></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+      		<tr>
+        		<td>Place of Birth</td>
+        		<td><input type="text" name="place" id="place" placeholder="Munich/Toronto"></td>
+      		</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td>Educational Details</td>
+			</tr>
+			<tr>
+				<td>Matric Marks:</td>
+				<td><input type="number" name="matric" id="matric" min="100" max="1100" placeholder="500"></td>
+			</tr>
+			<tr>
+				<td id="matric_res">Matric Result</td>
+			</tr>
+			<tr>
+				<td>Inter Marks:</td>
+				<td><input type="number" name="inter" id="inter" min="100" max="1100" placeholder="500"></td>
+			</tr>
+			<tr>
+				<td id="inter_res">Inter Result</td>
+
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+			<tr>
+				<td colspan="2"><button id="submit" type="button">Submit</button></td>
+			</tr>
+			<tr>
+				<td><br></td>
+			</tr>
+		</table>
+</form>
+
+
+	<div class="display">
+		<h1>OUTPUT</h1>
+		<p>
+			Name:<span class="PName"></span><br>
+			Age:<span class="PAge"></span><br>
+			Gender:<span class="PGender"></span><br>
+			Image:<span class="PImage"><img id="image" src=""></span><br>
+			Date of Birth:<span class="DOB"></span><br>
+			Place of Birth:<span class="POB"></span><br>
+			Educational Details <br>
+			Matric Marks:<span class="M_Marks"></span><br>
+			Matric Result:<span class="M_Result"></span><br>
+			Inter Marks:<span class="I_Marks"></span><br>
+			Inter Result:<span class="I_Result"></span><br>
+			
+		</p>
+	</div>
+
+</body>
+</html>
